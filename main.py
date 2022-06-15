@@ -43,4 +43,4 @@ async def on_ready():
     #await bot.change_presence(activity=discord.Streaming(name="Paco", url="http://www.twitch.tv/accountname")) #enseña si está en directo
     print('El bot está listo pa')
 
-bot.run('OTQ5MzQ4NjA0MjU3MTA3OTY4.GhRmDM.eesP1ylPyvky6M3AmeXocu4TMyfSoEASIhDLAY')
+bot.run('')
