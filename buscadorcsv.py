@@ -1,6 +1,6 @@
 import pandas as pd
 
-data = pd.read_csv('supermarket.csv', header=0)
+data = pd.read_csv('bdbases.csv', header=0)
 
 class finder():
     def finderx(self, valx):
@@ -40,11 +40,19 @@ class finder():
         #print("{} --- {}".format(dtx.item(),dty.item()))
         if dtx == dty:
             return dtx
+class adder():
+    def adder(name, numX, numY):
+        try:
+            file = open('bdbases.csv','a')
+            file.write("{}{},{},{}".format("\n",name,numX,numY))
+            file.close()
+            return True
+        except:
+            return False
 
 
 
-
-
+#
 #f = finder()
 #f = f.name(5,6)
 #print(type(f))

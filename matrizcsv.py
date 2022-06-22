@@ -29,6 +29,7 @@ class matrizdebusqueda():
             return True
 
 
+
 #busca = matrizdebusqueda()
 #Aqui le metes la coord X y la coord Y consecutivamente
 #print(busca.busqueda(21, 2))
